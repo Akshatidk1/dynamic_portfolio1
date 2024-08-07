@@ -27,7 +27,7 @@
         {"name": "TypeScript", "icon": "src/assets/typescript.png"},
         {"name": "Terraform", "icon": "src/assets/teraform.png"},
         {"name": "AWS", "icon": "src/assets/aws.png"},
-        {"name": "Docker", "icon": "src/assets/dockerddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd.png"},
+        {"name": "Docker", "icon": "src/assets/docker.png"},
         {"name": "GitHub Actions", "icon": "src/assets/git.png"},
         {"name": "Figma", "icon": "src/assets/figma.png"}
     ],
