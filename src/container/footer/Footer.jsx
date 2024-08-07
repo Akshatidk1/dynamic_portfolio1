@@ -62,7 +62,7 @@ const Footer = () => {
             className="p-text"
             target="_blank"
           >
-            Ankit Kumar
+          {data.name}
           </a>
         </div>
       </div>
