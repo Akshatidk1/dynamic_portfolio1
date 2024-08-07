@@ -1,5 +1,6 @@
 import React from "react";
 import { BsTwitter, BsInstagram } from "react-icons/bs";
+import data from '../assets/json/profile.json'
 import {
   FaFacebookF,
   FaGithub,
@@ -11,27 +12,27 @@ import { SiLeetcode } from "react-icons/si";
 const socialData = [
   {
     Icon: FaLinkedinIn,
-    href: "https://linkedin.com/in/ankitkumar68",
+    href: data.linkedin,
     label: "LinkedIn",
   },
   {
     Icon: FaGithub,
-    href: "https://github.com/Github2k10/",
+    href: data.github,
     label: "Github",
   },
   {
     Icon: SiLeetcode,
-    href: "https://leetcode.com/ankitSingh007/",
+    href: "https://leetcode.com/",
     label: "LeetCode",
   },
   {
     Icon: FaHackerrank,
-    href: "https://www.hackerrank.com/profile/ankitsingh40068",
+    href: "https://www.hackerrank.com/",
     label: "HackerRank",
   },
   {
     Icon: BsInstagram,
-    href: "https://www.instagram.com/___its.phoenix/",
+    href: "https://www.instagram.com/",
     label: "Instagram",
   },
 ];

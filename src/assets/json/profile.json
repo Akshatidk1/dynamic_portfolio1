@@ -1,44 +1,76 @@
 {
-    "name": "John Doe",
-    "job_title": "Software Engineer",
-    "description": "Passionate software engineer with experience in building scalable web applications.",
-    "logo": "https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg",
+    "name": "Alina Shah",
+    "job_title": "Full Stack Developer",
+    "description": "Dedicated full stack developer with experience in both front-end and back-end technologies.",
+    "logo": "src/assets/javascript.png",
     "favicon": "path/to/favicon.ico",
     "website": "https://johndoe.com",
     "github": "https://github.com/johndoe",
     "linkedin": "https://linkedin.com/in/johndoe",
     "twitter": "https://twitter.com/johndoe",
-    "email": "johndoe@example.com",
-    "skills": ["JavaScript", "React", "Node.js", "CSS", "HTML"],
+    "email": "alinaShah@example.com",
+
+    "skills": [
+        {"name": "Java", "icon": "src/assets/javascript.png"},
+        {"name": "JavaScript", "icon": "src/assets/javascript.png"},
+        {"name": "SQL", "icon": "src/assets/javascript.png"},
+        {"name": "Spring Boot", "icon": "src/assets/springboot.png"},
+        {"name": "React", "icon": "src/assets/react.png"},
+        {"name": "Node", "icon": "src/assets/node.png"},
+        {"name": "Kotlin", "icon": "src/assets/javascript.png"},
+        {"name": "Android Development", "icon": "src/assets/javascript.png"},
+        {"name": "HTML", "icon": "src/assets/html.png"},
+        {"name": "CSS", "icon": "src/assets/css.png"},
+        {"name": "Linux", "icon": "src/assets/javascript.png"},
+        {"name": "Python", "icon": "src/assets/python.png"},
+        {"name": "Bash", "icon": "src/assets/javascript.png"},
+        {"name": "TypeScript", "icon": "src/assets/typescript.png"},
+        {"name": "Terraform", "icon": "src/assets/javascript.png"},
+        {"name": "AWS", "icon": "src/assets/javascript.png"},
+        {"name": "Docker", "icon": "src/assets/javascript.png"},
+        {"name": "GitHub Actions", "icon": "src/assets/git.png"},
+        {"name": "Figma", "icon": "src/assets/figma.png"}
+    ],
     "experience": [
         {
-            "position": "Frontend Developer",
-            "imgUrl":"",
-            "company": "Tech Company",
-            "duration": "2021 - Present",
+            "position": "Student Assistant",
+            "company": "Western Norway University of Applied Sciences",
+            "imgUrl": "",
+            "duration": "Jan 2024 - Jun 2024",
+            "location": "Bergen, Vestland, Norway",
             "responsibilities": [
-                "Developed user-friendly web applications",
-                "Collaborated with designers and backend developers",
-                "Participated in code reviews"
+                "Assisted in teaching DAT110 - Distributed Systems and Network Technology",
+                "Provided support to students with Java and GitHub."
+            ]
+        },
+        {
+            "position": "Bachelor Thesis Student",
+            "company": "PiV - Patologi i Vest",
+            "imgUrl": "",
+            "duration": "Jan 2024 - Jun 2024",
+            "location": "Bergen, Vestland, Norway",
+            "responsibilities": [
+                "Conducted research and developed software for pathology projects",
+                "Utilized Python, Bash, and QuPath in thesis work."
             ]
         },
         {
             "position": "Intern",
-            "company": "Startup",
-            "imgUrl":"",
-            "duration": "2020 - 2021",
+            "company": "Ambita",
+            "imgUrl": "",
+            "duration": "Aug 2023 - Nov 2023",
+            "location": "Bergen, Vestland, Norway",
             "responsibilities": [
-                "Assisted in developing frontend components",
-                "Learned about Agile methodologies",
-                "Conducted testing and debugging"
+                "Developed and integrated AI algorithms",
+                "Worked with TypeScript, Terraform, Bash, AWS, Docker, and GitHub."
             ]
         }
     ],
-    "about":{
-        "first":"Hello there",
-        "second":"I am ",
-        "third":"Thats Why ",
-        "fourth":"All about"
+    "about": {
+        "first": "Hello there.",
+        "second": "I am Alina Shah.",
+        "third": "Full stack developer.",
+        "fourth": "Continuously improve my skills."
     },
-    "phone": 1234567890
+    "phone": "123-456-7890"
 }
