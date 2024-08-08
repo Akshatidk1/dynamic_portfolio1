@@ -110,7 +110,7 @@
   }
 }
 
-.app__skills-acc{
+.app__skills-acc {
   width: 40%;
 
   @media screen and (max-width: 900px) {
@@ -138,19 +138,22 @@
     transition: all 0.3s ease;
     margin: 0.5rem;
 
-    p{
+    p {
       font-weight: 500;
     }
+
     &:hover {
       background-color: var(--secondary-color);
       color: #ffffff;
     }
+
     @media screen and (min-width: 2000px) {
       padding: 1rem 2rem;
       border-radius: 0.85rem;
       font-size: 1.5rem;
     }
   }
+
   .item-active {
     background-color: var(--secondary-color);
     color: #ffffff;
@@ -169,7 +172,7 @@
   width: 100%;
 }
 
-.app__skills-acc-leet{
+.app__skills-acc-leet {
   width: 100%;
   margin-top: 1rem;
   display: flex;
@@ -180,23 +183,25 @@
   gap: 1rem;
 }
 
-.app__skills-acc-leet-item{
+.app__skills-acc-leet-item {
   width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 0.5rem;
+
   img {
     width: 100%;
   }
+
   p {
     text-align: center;
   }
 }
 
 
-.app__skills-acc-hack{
+.app__skills-acc-hack {
   width: 100%;
   margin-top: 1rem;
   display: flex;
@@ -207,23 +212,25 @@
   gap: 1rem;
 }
 
-.app__skills-acc-hack-item{
+.app__skills-acc-hack-item {
   width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   img {
     width: 100%;
     margin-bottom: 0.5rem;
   }
+
   p {
     text-align: center;
-    
+
   }
 }
 
-.app__skills-acc-github{
+.app__skills-acc-github {
   margin-top: 1rem;
   display: flex;
   flex-direction: row;
@@ -232,7 +239,7 @@
   align-items: center;
 }
 
-.github__stats{
+.github__stats {
   width: 80%;
 
   @media screen and (max-width: 900px) {
@@ -240,11 +247,22 @@
   }
 }
 
-.github__trophy{
+.github__trophy {
   width: 80%;
   margin-top: 20px;
 
   @media screen and (max-width: 900px) {
     width: 100%;
   }
+}
+
+
+.width-75 {
+  width: 75% !important;
+}
+
+
+.aligned-img-container {
+  display: flex;
+  align-items: end;
 }
